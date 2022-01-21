@@ -1,0 +1,63 @@
+.form{
+    background-color: rgb(15,15,15);
+    width: 630px;
+    height: 450px;
+    margin-top: 100px;
+    border-radius: 30px;;
+    box-shadow: red 0px 0px 20px 15px;
+}
+
+.marka{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 85px;
+    box-shadow: red 0px 0px 10px 5px;
+}
+.model{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-left: 60px;
+    box-shadow: red 0px 0px 10px 5px;
+}
+.plaka{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 70px;
+    box-shadow: red 0px 0px 10px 5px;
+}
+.yil{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-left: 60px;
+    box-shadow: red 0px 0px 10px 5px;
+}
+.fiyat{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 70px;
+    box-shadow: red 0px 0px 10px 5px;
+}
+
+.kayit {
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+    box-shadow: red 0px 0px 10px 5px;
+}
+
+.kayit:hover {
+    box-shadow: red 0px 0px 25px 15px;
+    transition: 500ms;
+    background-color: black;
+    color: white;
+}

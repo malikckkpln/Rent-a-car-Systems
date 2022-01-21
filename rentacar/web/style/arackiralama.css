@@ -1,0 +1,213 @@
+.kira_box {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 300px;
+    margin-left: -700px;
+    margin-top: -210px;
+    border-radius: 20px;
+    box-shadow: red 0px 0px 10px 5px;
+}
+
+.car1 {
+    border-radius: 15px;
+    width: 275px;
+    height: 175px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: white;
+    box-shadow: red 0px 0px 10px 5px;
+}
+
+.car1p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -175px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 300px;
+    box-shadow: red 0px 0px 10px 5px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.car1p2 {
+    font-size: 25px;
+    margin-left: 300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;    
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: red 0px 0px 10px 5px;
+    border-radius: 15px;
+}
+
+.car1btn {
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;    
+    width: 400px;
+    height: 40px;
+    border: none;
+    box-shadow: white 0px 0px 10px 5px;
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.car1btn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: red 0px 0px 10px 10px;
+    transition: 1000ms;
+    border:solid white;
+}
+
+.kira_box2 {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 300px;
+    margin-left: 700px;
+    margin-top: -210px;
+    border-radius: 20px;
+    box-shadow: red 0px 0px 10px 5px;
+}
+
+.kira_box3 {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 300px;
+    margin-left: -700px;
+    margin-top: 420px;
+    border-radius: 20px;
+    box-shadow: red 0px 0px 10px 5px;
+}
+
+.kira_box4 {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 300px;
+    margin-left: 700px;
+    margin-top: 420px;
+    border-radius: 20px;
+    box-shadow: red 0px 0px 10px 5px;
+}
+
+#onay {
+    position: absolute;
+    background-color: rgb(15,15,15);
+    margin-top: 220px;
+    margin-left: 100px;
+    width: 1300px;
+    height: 300px;
+    color: white;
+    font-size: 30px;
+    border-radius: 40px;
+    box-shadow: red 0px 0px 15px 10px;
+}
+
+.add1 {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -1180px;
+    border-bottom: solid white;
+}
+
+.add {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -870px;
+}
+
+.soyadd1 {
+    position: absolute;
+    margin-left: -1120px;
+    border-bottom: solid white;
+}
+
+.soyadd {
+    position: absolute;
+    margin-left: -850px;
+}
+
+.emaill {
+    position: absolute;
+    margin-left: -640px;
+    margin-top: 130px;
+    border-bottom: solid white;
+}
+
+.emaill1 {
+    position: absolute;
+    margin-left: -1120px;
+    margin-top: 130px;
+    border-bottom: solid white;
+}
+
+.markaa {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -150px;
+}
+
+.modell {
+    position: absolute;
+    width: 500px;;
+    margin-left: 690px;
+    margin-top: -50px;
+}
+
+.yill {
+    position: absolute;
+    width: 500px;;
+    margin-left: 690px;
+    margin-top: 50px;
+}
+
+.fiyatt {
+    position: absolute;
+    width: 500px;;
+    margin-left: 690px;
+    margin-top: 150px;
+}
+
+.btnn {
+    position: absolute;
+    margin-top: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: gray 0px 0px 10px 5px;
+    cursor: pointer;
+}
+
+.btnn:hover {
+    transition: 500ms;
+    color: white;
+    background-color: black;
+    box-shadow: purple 0px 0px 15px 10px;
+}
+
+.text {
+    position: absolute;
+    font-size: 20px;
+    width: 255px;
+    text-align: center;
+    margin-left: 960px;
+    margin-top: 30px;
+}
+
+.onayimg {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 960px;
+    margin-top: -150px;
+}

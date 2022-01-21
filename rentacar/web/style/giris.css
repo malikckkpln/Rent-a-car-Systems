@@ -1,0 +1,122 @@
+body{
+    background-image: url(https://images.pexels.com/photos/248747/pexels-photo-248747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-color: rgba(233, 34, 34, 0.4);
+    background-position: top-left;
+}
+.container {
+    position: absolute;
+    background-color: black;
+    width : 350px;
+    margin-left: 500px;
+    border-radius: 20px;
+    box-shadow: rgb(255, 0, 0) 0px 0px 10px 7px;
+    margin-left: 270px;
+    margin-top: 300px;
+    padding: 30px;
+}
+
+.kayyit {  
+    position: absolute;
+    background-color: rgb(0, 0, 0); 
+    width: fit-content;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: red;
+    box-shadow: red 0px 0px 10px 5px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.useremail {
+    color: blanchedalmond;
+}
+
+.useremail2 {
+    margin-left: 60px;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: gray 0px 0px 5px 2px;
+}
+
+.usersifre {
+    color:blanchedalmond;
+}
+
+.usersifre2 {
+    margin-left: 67px;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: gray 0px 0px 5px 2px;
+}
+
+.userkayit {
+    margin-left: 600px;
+}
+.giris_btn {
+    position: absolute;
+    margin-top: 430px;
+    margin-bottom: -50px;
+    margin-left: 400px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.giris_btn:hover {
+    color: white;
+    background-color: black;
+    box-shadow: red 0px 0px 10px 5px;
+    transition: 500ms;
+}
+
+.adminemail {
+    color: blanchedalmond;
+}
+
+.adminemail2 {
+    margin-left: 53px;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: gray 0px 0px 5px 2px;
+}
+
+.adminsifre {
+    color:blanchedalmond;
+}
+
+.adminsifre2 {
+    margin-left: 60px;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: gray 0px 0px 5px 2px;
+}
+
+.remember {
+    color: white;
+}
+
+.giris_btn1 {
+    margin-top: 20px;
+    margin-bottom: -50px;
+    margin-left: 95px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.giris_btn1:hover {
+    color: white;
+    background-color: black;
+    box-shadow: red 0px 0px 10px 5px;
+    transition: 500ms;
+}

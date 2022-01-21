@@ -1,0 +1,606 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  :root {
+	--gradient-shadow: linear-gradient(
+		45deg,
+		#fb0094,
+		#0000ff,
+		#00ff00,
+		#ffff00,
+		#ff0000,
+		#fb0094,
+		#0000ff,
+		#00ff00,
+		#ffff00,
+		#ff0000
+	);
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.shadow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	width: 1000px;
+	height: 250px;
+	background: linear-gradient(0deg, #000, #262626);
+}
+.shadow:before,
+.shadow:after {
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background: var(--gradient-shadow);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: animate 20s linear infinite;
+}
+
+.shadow:after {
+	filter: blur(20px);
+}
+
+@keyframes animate {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 300% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+.cikis {
+    position: absolute;
+    margin-left: 1280px;
+    width: 200px;
+    height: 40px;
+    margin-top: -40px;
+    box-shadow: black 0px 0px 10px 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.cikis:hover {
+    transition: 500ms;
+    border: none;
+    color: white;
+    background-color: red;
+    box-shadow: rgb(0, 0, 0) 0px 0px 15px 10px;
+}
+
+.ekle {
+    margin-left: 90px;
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    box-shadow: black 0px 0px 10px 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+}
+  
+.ekle:hover {
+    transition: 500ms;
+    border: none;
+    color: white;
+    background-color: red;
+    box-shadow: rgb(0, 0, 0) 0px 0px 15px 10px;
+}  
+
+.listele {
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    box-shadow: black 0px 0px 10px 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+}
+  
+.listele:hover {
+    transition: 500ms;
+    border: none;
+    color: white;
+    background-color: red;
+    box-shadow: rgb(0, 0, 0) 0px 0px 15px 10px;
+} 
+
+.profil_adm {
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    box-shadow: black 0px 0px 10px 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+}
+  
+.profil_adm:hover {
+    transition: 500ms;
+    border: none;
+    color: white;
+    background-color: red;
+    box-shadow: rgb(0, 0, 0) 0px 0px 15px 10px;
+} 
+
+.users {
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    box-shadow: black 0px 0px 10px 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+}
+  
+.users:hover {
+    transition: 500ms;
+    border: none;
+    color: white;
+    background-color: red;
+    box-shadow: rgb(0, 0, 0) 0px 0px 15px 10px;
+} 
+
+  .container {
+    background: #191919;
+    min-height: 100vh;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .kira {
+      margin-left: 220px;
+      width: 200px;
+      height: 40px;
+      margin-top: 25px;
+      box-shadow: black 0px 0px 10px 7px;
+      cursor: pointer;
+      border-radius: 5px;
+      background-color: white;
+  }
+  
+  .kira:hover {
+    transition: 500ms;
+    border: none;
+    color: white;
+    background-color: red;
+    box-shadow: rgb(0, 0, 0) 0px 0px 15px 10px;
+  }
+  
+  .kiralanan {
+      margin-left: 150px;
+      width: 200px;
+      height: 40px;
+      margin-top: 25px;
+      box-shadow: black 0px 0px 10px 7px;
+      cursor: pointer;
+      border-radius: 5px;
+      background-color: white;
+  }
+  
+  .kiralanan:hover {
+    transition: 500ms;
+    border: none;
+    color: white;
+    background-color: red;
+    box-shadow: rgb(0, 0, 0) 0px 0px 15px 10px;
+  }
+  
+  .profil {
+      margin-left: 150px;
+      width: 200px;
+      height: 40px;
+      margin-top: 25px;
+      box-shadow: black 0px 0px 10px 7px;
+      cursor: pointer;
+      border-radius: 5px;
+      background-color: white;
+  }
+  
+  .profil:hover {
+    transition: 500ms;
+    border: none;
+    color: white;
+    background-color: red;
+    box-shadow: rgb(0, 0, 0) 0px 0px 15px 10px;
+  }
+
+  nav {
+      margin-top: -651px;
+      background-color: white;
+      position: fixed;
+      left: 0;
+      z-index: 50;
+      display: inline;
+      justify-content: space-around;
+      flex-direction: column;
+      height: 100px;
+      width: 100%;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      box-shadow: red 0px 0px 15px 10px;
+  }
+
+  section {
+      position: absolute;
+      top: 0;
+      height: 100vh;
+      width: 0;
+      opacity: 0;
+      transition: all .5s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  } 
+
+  section h1 {
+      color: #fff;
+      font-size: 50px;
+      text-transform: uppercase;
+      opacity: 0;
+  }
+
+  /* Styles applied on trigger */
+  section:target {
+      opacity: 1;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+  }
+
+  section:target h1 {
+      opacity: 0;
+      
+  }
+
+  #first {
+    background: black;
+  }
+  
+  #second {
+      background:  black;
+  }
+
+  #third {
+      background:  black;
+  }
+
+  
+  .psolad {
+      position:absolute;
+      margin-top: 60px;
+      margin-left: 40px;
+  }
+  
+  .psolsoyad {
+      position:absolute;
+      margin-top: 90px;
+      margin-left: 40px;
+  }
+  
+  .psolnum {
+      position:absolute;
+      margin-top: 120px;
+      margin-left: 40px;
+  }
+  
+  .psolmail {
+      position:absolute;
+      margin-top: 150px;
+      margin-left: 40px;
+  }
+  
+  .psagad {
+      position:absolute;
+      margin-top: 60px;
+      margin-left: 200px;
+  }
+  
+  .psagsoyad {
+      position:absolute;
+      margin-top: 90px;
+      margin-left: 200px;
+  }
+  
+  .psagmail {
+      position:absolute;
+      margin-top: 120px;
+      margin-left: 200px;
+  }
+  
+  .psagpw {
+      position:absolute;
+      margin-top: 150px;
+      margin-left: 200px;
+  }
+  
+  
+  
+  .ad_alt {
+      position: absolute;
+      margin-top: 250px;
+      margin-left: 40px;
+  }
+  
+  .ad_alt1 {
+      position: absolute;
+      margin-top: 250px;
+      margin-left: 180px;
+      border-radius: 8px;
+      box-shadow: red 0px 0px 10px 2px;
+  }
+  
+  .soyad_alt {
+      position: absolute;
+      margin-top: 270px;
+      margin-left: 40px;
+  }
+  
+  .soyad_alt1 {
+      position: absolute;
+      margin-top: 270px;
+      margin-left: 180px;
+      border-radius: 8px;
+      box-shadow: red 0px 0px 10px 2px;
+  }
+  
+  .mail_alt {
+      position: absolute;
+      margin-top: 290px;
+      margin-left: 40px;
+  }
+  
+  .mail_alt1 {
+      position: absolute;
+      margin-top: 290px;
+      margin-left: 180px;
+      border-radius: 8px;
+      box-shadow: red 0px 0px 10px 2px;
+  }
+  
+  .pw1_alt {
+      position: absolute;
+      margin-top: 310px;
+      margin-left: 40px;
+  }
+  
+  .pw1_alt1 {
+      position: absolute;
+      margin-top: 310px;
+      margin-left: 180px;
+      border-radius: 8px;
+      box-shadow: red 0px 0px 10px 2px;
+  }
+  
+  .pw2_alt {
+      position: absolute;
+      margin-top: 330px;
+      margin-left: 40px;
+  }
+  
+  .pw2_alt1 {
+      position: absolute;
+      margin-top: 330px;
+      margin-left: 180px;
+      border-radius: 8px;
+      box-shadow: red 0px 0px 10px 2px;
+  }
+  
+  .btn_son {
+      position: absolute;
+      margin-top: 350px;
+      width: 150px;
+      height: 35px;
+      border-radius: 10px;
+      box-shadow: red 0px 0px 10px 2px;
+      cursor: pointer;
+  }
+  
+  .btn_son:hover {
+      transition: 500ms;
+      border: none;
+      color:white;
+      background-color: rgb(60,60,60);
+      box-shadow: red 0px 0px 10px 5px;
+  }
+  
+  #fourth {
+      background:  black ;
+  }
+
+  @keyframes fadeIn {
+      100% { opacity:1 }
+  }
+
+  
+  /* ARAÇ KAYIT FORMU     */
+  
+  
+  h3{
+      position: relative;
+      bottom: 20px;
+      
+  }
+  
+  .bilet {
+    position: absolute;
+    margin-top:220px;
+    margin-left: 80px;
+    border-radius: 20px;
+    background-color: rgba(108, 152, 165, 0.719);
+    width: 550px;
+    height: 400px;
+    padding-top: 55px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.ad {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.soyad {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 60px;
+}
+
+.TC {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 120px;
+}
+
+.tel {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 180px;
+}
+
+.mail {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 250px;
+}
+
+.pw1 {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 250px;
+}
+
+.pw2 {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 120px;
+    margin-left: 250px;
+}
+
+.btn {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 180px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.btn:hover {
+    background-color: rgb(207, 0, 0);
+    color: white;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    transition: all 0.5s ;
+}
+
+/* tablo araç  */
+
+#personel_tablo th{
+    font-size: 30px;
+}
+#personel_tablo{
+    background-color: rgb(20,20,20);
+    color:white;
+}
+#personel_tablo tr:hover{
+    background-color:rgb(40,40,40);
+    color: red;
+}
+#personel_tablo th, td {
+    text-align: center;
+    width: 180px;
+    height: 40px;
+}
+
+
+table {
+  margin-top: 50px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  box-shadow: red 0px 0px 25px 15px;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+table, th, td {
+  border:1px solid black;
+}
+tr:nth-child(even) {
+  background-color: rgb(60,60,60);
+}
+
+
+.alan{
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background-color:  rgb(10,10,10);
+    box-shadow: red 0px 0px 25px 15px;
+    color: white;
+ }
+ .uyari{
+     position: relative;
+     top: 200px;
+ }

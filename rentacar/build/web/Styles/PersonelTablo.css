@@ -1,0 +1,33 @@
+#personel_tablo th{
+    font-size: 20px;
+}
+#personel_tablo{
+    background-color: white;
+    border:1px solid black;
+}
+#personel_tablo tr:hover{
+    background-color:rgb(209, 203, 203);
+}
+#personel_tablo th, td {
+    border: 1px solid black;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+table, th, td {
+  border:1px solid black;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
